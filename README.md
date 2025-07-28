@@ -94,15 +94,15 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 + JWT_SECRET=some_secret_value
 
 4. **Run frontend & backend**
-# Terminal 1 (frontend)
+### Terminal 1 (frontend)
 + cd frontend
 + npm run dev
 
-# Terminal 2 (backend)
+### Terminal 2 (backend)
 + cd backend
 + npx nodemon server.js
 
-⭐ Show Some Love
+# ⭐ Show Some Love
 If you like the project:
 
 + ⭐ Star it on GitHub

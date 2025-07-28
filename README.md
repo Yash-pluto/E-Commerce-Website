@@ -83,24 +83,24 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 ## 📌 How to Run Locally
 
 1. **Clone the repo**
-git clone https://github.com/your-username/ecommerce-website.git
++ git clone https://github.com/your-username/ecommerce-website.git
 
 2. **Install Dependecies**
-cd frontend && npm install
-cd ../backend && npm install
++ cd frontend && npm install
++ cd ../backend && npm install
 
-3. **Setup .env in backend**
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=some_secret_value
+4. **Setup .env in backend**
++ MONGO_URI=your_mongodb_uri
++ JWT_SECRET=some_secret_value
 
 4. **Run frontend & backend**
 # Terminal 1 (frontend)
-cd frontend
-npm run dev
++ cd frontend
++ npm run dev
 
 # Terminal 2 (backend)
-cd backend
-npx nodemon server.js
++ cd backend
++ npx nodemon server.js
 
 ⭐ Show Some Love
 If you like the project:

@@ -64,7 +64,7 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 
 ## 🧠 Developer
 
-- 🔥 **Pluto** – Engineering Student | Full-Stack Dev in Progress  
+- 🔥 **Yash Vardhan** – Engineering Student | Full-Stack Dev in Progress  
 - 🎯 MERN Stack Enthusiast | Strategic Thinker | The Future of Code
 
 ---

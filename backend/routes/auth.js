@@ -6,21 +6,21 @@ const jwt = require("jsonwebtoken");
 
 router.post("/register", async (req, res) => {
   const { email, password } = req.body;
+  if (email.length < 5 || password.length < 30)
+    try {
+      const exists = await User.findOne({ email });
+      if (exists) return res.status(400).json({ msg: "User already exists" });
 
-  try {
-    const exists = await User.findOne({ email });
-    if (exists) return res.status(400).json({ msg: "User already exists" });
+      const hashed = await bcrypt.hash(password, 10);
+      const role = email === "admin@hellstore.com" ? "admin" : "customer";
 
-    const hashed = await bcrypt.hash(password, 10);
-    const role = email === "admin@hellstore.com" ? "admin" : "customer";
+      const user = new User({ email, password: hashed, role });
+      await user.save();
 
-    const user = new User({ email, password: hashed, role });
-    await user.save();
-
-    res.status(201).json({ msg: "Registered successfully" });
-  } catch (err) {
-    res.status(500).json({ msg: "Server error" });
-  }
+      res.status(201).json({ msg: "Registered successfully" });
+    } catch (err) {
+      res.status(500).json({ msg: "Server error" });
+    }
 });
 
 router.post("/login", async (req, res) => {

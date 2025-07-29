@@ -1,4 +1,3 @@
-
 # 🛒 HELLSTORE – MERN E-Commerce App
 
 Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with 🔐 authentication, 🛍️ dynamic store, 🧾 cart system, and 🧠 role-based access for Admins & Customers.
@@ -29,7 +28,9 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 
 ## 📸 Preview
 
-> 💡 _Coming soon: Screenshots / Demo GIF_
+### 🔥 Login → Transition → Store Animation
+
+![Hellstore Demo](./markdownAssets/Showcase.gif)
 
 ---
 
@@ -68,7 +69,7 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 ## 🧠 Developer
 
 - 🔥 **Yash Vardhan** – Engineering Student | Full-Stack Dev in Progress
-- 🎯 MERN Stack Enthusiast | Strategic Thinker | The Future of Code
+- 🎯 MERN Stack Enthusiast | Strategic Thinker
 
 ---
 
@@ -87,29 +88,39 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 
 1. **Clone the repo**
 
+```shell
 - git clone https://github.com/your-username/ecommerce-website.git
+```
 
 2. **Install Dependecies**
 
+```shell
 - cd frontend && npm install
 - cd ../backend && npm install
+```
 
 4. **Setup .env in backend**
 
+```javascript
 - MONGO_URI=your_mongodb_uri
 - JWT_SECRET=some_secret_value
+```
 
 4. **Run frontend & backend**
 
 ### Terminal 1 (frontend)
 
+```shell
 - cd frontend
 - npm run dev
+```
 
 ### Terminal 2 (backend)
 
+```shell
 - cd backend
 - npx nodemon server.js
+```
 
 # ⭐ Show Some Love
 
@@ -125,4 +136,3 @@ You can hit me up anytime for collabs, mentoring, or questions:
 - 🧠 [LinkedIn](https://www.linkedin.com/in/vardhan-yash3105/)
 - 🐙 [GitHub](https://github.com/yashvardhan3105)
 - 📧 Email: vardhan.yash3105@gmail.com
-

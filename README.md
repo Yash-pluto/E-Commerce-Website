@@ -30,7 +30,7 @@ Welcome to **Hellstore**, a full-stack e-commerce web app built using the MERN s
 
 ### 🔥 Login → Transition → Store Animation
 
-![Hellstore Demo](./markdownAssets/Showcase.gif)
+![Hellstore Demo](https://github.com/user-attachments/assets/5e6b2a89-d5f2-4165-a054-af4b2f44aa7f)
 
 ---
 

@@ -47,7 +47,7 @@ export default function AuthForm({ type }) {
       alert(err.response?.data?.msg || "Something went wrong, bro.");
     }
   };
-
+  // Redirect to the appropriate page after the transition video
   return (
     <>
       {showVideo && <TransitionVideo redirectTo={redirectPath} />}

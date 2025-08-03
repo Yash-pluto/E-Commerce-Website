@@ -133,6 +133,6 @@ If you like the project:
 💬 Connect With Me
 You can hit me up anytime for collabs, mentoring, or questions:
 
-- 🧠 [LinkedIn](https://www.linkedin.com/in/Yash-pluto/)
-- 🐙 [GitHub](https://github.com/yashvardhan3105)
+- 🧠 [LinkedIn](https://www.linkedin.com/in/vardhan-yash3105/)
+- 🐙 [GitHub](https://github.com/Yash-pluto)
 - 📧 Email: vardhan.yash3105@gmail.com
